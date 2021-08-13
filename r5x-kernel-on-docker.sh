@@ -71,10 +71,10 @@ fi
 # Make zip installer
 
 # ENV
-ZIP_DIR=$KERNEL_DIR/AnyKernel3
+ZIP_DIR=$KERNEL_DIR/anykernel
 
 # Modify kernel name in anykernel
-sed -i "s/ExampleKernel by osm0sis @ xda-developer/${KERNAME}${TYPE} by dodyirawan85 @ github.com/g" $ZIP_DIR/anykernel.sh
+sed -i "s/ExampleKernel by osm0sis @ xda-developer/${KERNAME}${TYPE} by renaldigp @ github.com/g" $ZIP_DIR/anykernel.sh
 
 # Make zip
 make -C $ZIP_DIR clean
