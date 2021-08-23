@@ -29,7 +29,7 @@ KERN_IMG=$KERNEL_DIR/out/arch/arm64/boot/Image.gz-dtb
 DTBO_IMG=$KERNEL_DIR/out/arch/arm64/boot/dtbo.img
 
 git submodule update --init --recursive
-git clone https://github.com/Ryujinz/anykernel.git -b main
+git clone https://github.com/Ryujinz/anykernel -b main
 git clone https://github.com/xyz-prjkt/xRageTC-clang compiler --depth=1
 
 # Build kernel
