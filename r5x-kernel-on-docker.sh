@@ -30,7 +30,7 @@ DTBO_IMG=$KERNEL_DIR/out/arch/arm64/boot/dtbo.img
 
 git submodule update --init --recursive
 git clone --depth=1 https://github.com/Ryujinz/anykernel -b main
-git clone --depth=1 https://github.com/Ryujinz/Ryujin-Clang compiler
+git clone --depth=1 https://github.com/Ryujinz/Endeavour-Clang compiler
 
 # Build kernel
 export TZ="Asia/Jakarta"
